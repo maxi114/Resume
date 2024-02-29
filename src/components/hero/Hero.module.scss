@@ -87,7 +87,14 @@
         }
 
         .email {
+            @media (max-width: $sm){
+                position: relative;
+                display: none;
+            }
             color: #5E3BEE;
+            position: absolute;
+            top: 50%;
+            left: 0;
         }
     }
 }

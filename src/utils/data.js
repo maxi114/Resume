@@ -1,26 +1,29 @@
 import { HiOutlineDesktopComputer } from "react-icons/hi";
 import { VscServer } from "react-icons/vsc";
-import { MdWorkspacesOutline } from "react-icons/md";
+import { FaTools } from "react-icons/fa";
 export const projectExperience = [
   {
-    name: "Website Design",
+    name: "Front End",
+    skills: "HTML, CSS, SCSS, JQUERY, ANGULAR, REACT",
     icon: HiOutlineDesktopComputer,
     bg: "#5E3BEE",
   },
   {
-    name: "Custom IDX Website",
-    icon: MdWorkspacesOutline,
+    name: "Back End",
+    skills:"Node.JS, Express.JS, python, MongoDB",
+    icon: VscServer,
     bg: "#0d6efd",
   },
   {
-    name: "Maintenance & hosting",
-    icon: VscServer,
+    name: "Tools",
+    skills: "Git, Visual Studio code, Mongo Shell, Docker",
+    icon: FaTools,
     bg: "#6747C7",
   },
 ];
 
 export const WhatDoIHelp = [
-  "I'll help you unlock the potential of your real estate business with a custom IDX website crafted exclusively for brokers and agents like you to showcase your listings.",
+  "Welcome to my digital playground where I thrive on turning ideas into innovative web solutions.",
 
   
   
@@ -28,26 +31,20 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "Accounting systems Integration",
+    tenure: "June 2023 - present",
+    role: "System Integration",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Worked with Acumatica to develop accounting systems for clients. Conducted data collection, cleaning, and validation.",
   },
   {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
+    place: "Infectious diseases society of New York",
+    tenure: "Jan 2024",
+    role: "Backend Developer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "Worked as a freelancer to develop a voting system for the company. Built a custom payment system using stripe to charge users for subscription services.",
   },
-  {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
-  },
+  
 ];
 
 export const comments = [

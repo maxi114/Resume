@@ -12,6 +12,7 @@ const App = () => {
     <Header />
     <Hero />
     <Experties />
+    <Works />
     <Portfolio />
     <Footer />
   </div>

@@ -21,19 +21,21 @@ const Footer = () => {
                     </span>
 
                     <span className='primaryText'>
-                        Start by <a href="https://calendly.com/maxkodi081/free-consultation" target='_blank' >booking a consultation</a>
+                        Start by <a href="mailto:maximilliankodi@gmail.com" target='_blank' >saying hi</a>
                     </span>
                 </div>
                 <div className={css.right}>
 
                     <div className={css.info}>
                         <span className="secondaryText">Information</span>
-                        <p>maxkodi081@gmail.com</p>
+                        <p>maximilliankodi@gmail.com</p>
                     </div>
 
                     <div className={css.menu}>
-                        <li><a href="#experties">Services</a></li>
-                        <li><a  href="#portfolio">Portfolio</a></li>
+                        <li><a href="#experties">Skills</a></li>
+                        <li><a href="#work">Experience</a></li>
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="https://github.com/maxi114" target='_blank'>Github</a></li>
                     </div>
                 </div>
             </motion.div>

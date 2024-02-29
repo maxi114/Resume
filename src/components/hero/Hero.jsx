@@ -20,7 +20,7 @@ const Hero = () => {
 
                     <motion.span
                         variants={fadeIn("left", "tween", 0.2, 1)}
-                        className='secondaryText'> I Empower Brokers and Agents with <br /> Custom IDX websites.</motion.span>
+                        className='secondaryText'> Full Stack Web Developer <br /> Building Beautiful and Functional Websites.</motion.span>
                 </div>
 
                 {/*person image*/}
@@ -34,19 +34,19 @@ const Hero = () => {
                 </motion.div>
 
                 {/*email*/}
-
+                 <a className = {css.email} href="mailto:maximilliankodi@gmail.com">Maximilliankodi@gmail.com</a>
 
                 {/*lower elements*/}
                 <div className={css.lowerElements}>
-                    {/*<motion.div 
+                    <motion.div 
                     variants={fadeIn("right", "tween", 0.3, 1)}
                     className={css.experience}>
-                        <div className='primaryText'>5</div>
+                        <div className='primaryText'>1</div>
                         <div className='secondaryText'>
-                            <div>Years</div>
+                            <div>Year</div>
                             <div>Experience</div>
                         </div>
-                    </motion.div>*/}
+                    </motion.div>
 
                     <motion.div
                         variants={fadeIn("left", "tween", 0.5, 1)}
@@ -55,16 +55,6 @@ const Hero = () => {
                         <span>CERTIFIED PROFETIONAL</span>
                         <span>WEB DEVELOPER</span>
                     </motion.div>
-
-                    <motion.div
-                        variants={fadeIn("right", "tween", 0.3, 1)}
-                        className={css.experience}>
-                        <div className='secondaryText'>
-                            <a href="https://calendly.com/maxkodi081/free-consultation" target='_blank'
-                            className={css.email} >Get Started</a>
-                        </div>
-                    </motion.div>
-
 
                 </div>
             </motion.div>
