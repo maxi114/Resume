@@ -29,7 +29,7 @@ const portfolio = () => {
 
                 {/* images */}
                 <div className={`flexCenter ${css.showCase}`}>
-                    <motion.a href="https://estatepro.onrender.com/"
+                    <motion.a href="https://estatepro2.onrender.com/"
                     target="_blank"
                         variants={fadeIn("up", "tween", 0.5, 0.6)}>
                         <img
@@ -38,15 +38,15 @@ const portfolio = () => {
                             alt="project" />
                     </motion.a>
 
-                    {/*<motion.img
-                        variants={fadeIn("up", "tween", 0.7, 0.6)}
-                        src="./showCase2.png"
-                        alt="project" />
+                    <motion.a href="https://homzy2-eight.vercel.app/"
+                    target="_blank"
+                        variants={fadeIn("up", "tween", 0.5, 0.6)}>
+                        <img
 
-                    <motion.img
-                        variants={fadeIn("up", "tween", 0.9, 0.6)}
-                        src="./showCase3.png"
-alt="project" />*/}
+                            src="./Capoo.png"
+                            alt="project" />
+                    </motion.a>
+
                 </div>
             </div>
         </motion.section>

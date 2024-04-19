@@ -23,7 +23,7 @@ export const projectExperience = [
 ];
 
 export const WhatDoIHelp = [
-  "Welcome to my digital playground where I thrive on turning ideas into innovative web solutions.",
+  "A highly motivated Full Stack Software Engineer with a passion for developing cutting-edge solutions that address real-world challenges.",
 
   
   
