@@ -20,7 +20,7 @@ const Hero = () => {
 
                     <motion.span
                         variants={fadeIn("left", "tween", 0.2, 1)}
-                        className='secondaryText'> Full Stack Software Developer <br /> Building Beautiful and Functional Applications.</motion.span>
+                        className='secondaryText'> Full Stack AI Software Developer <br /> Building Beautiful and Functional Applications.</motion.span>
                 </div>
 
                 {/*person image*/}
